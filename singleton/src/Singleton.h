@@ -3,7 +3,7 @@ using namespace std;
 
 class Singleton {
 private:
-    int data = 0;// Static instance
+    int data = 0; // some data
 
     Singleton() {  // Private constructor
         cout << "Constructor Singleton " << data << endl;
